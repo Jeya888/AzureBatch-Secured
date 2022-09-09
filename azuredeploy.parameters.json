@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "resourceGroupLocation": {
-      "value": "westeurope"
+      "value": "eastus"
     },
     "environment": {
       "value": "dev"
@@ -37,7 +37,7 @@
       }
     },
     "adminUserName": {
-      "value": "localadmin"
+      "value": "jyadmin"
     },
     "jumpboxLinuxVmSize": {
       "value": "Standard_B1s"
@@ -61,7 +61,7 @@
       "value": "Disabled"
     },
     "acrSku": {
-      "value": "Premium"
+      "value": "Standard"
     },
     "acrAdminUserEnabled": {
       "value": true
