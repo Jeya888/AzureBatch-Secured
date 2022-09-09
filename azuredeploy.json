@@ -100,7 +100,7 @@
     },
     "adminUserName": {
       "type": "string",
-      "defaultValue": "localadmin"
+      "defaultValue": "jyadmin"
     },
     "adminPassword": {
       "type": "secureString"
@@ -124,6 +124,7 @@
     },
     "batchServiceObjectId": {
       "type": "string",
+      "defaultValue": "jybatch10",
       "metadata": {
         "description": "Get the Batch Service Object Id: az ad sp show --id \"MicrosoftAzureBatch\" --query objectId -o tsv"
       }
@@ -160,7 +161,7 @@
     },
     "acrSku": {
       "type": "string",
-      "defaultValue": "Premium",
+      "defaultValue": "Standard",
       "allowedValues": [
         "Basic",
         "Classic",
