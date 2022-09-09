@@ -1,7 +1,7 @@
 // https://docs.microsoft.com/en-us/azure/templates/microsoft.operationalinsights/workspaces?tabs=bicep
 
 param logAnalyticsWorkspaceName string
-param skuName string = 'Free'
+param skuName string = 'Standard'
 param tags object
 
 
