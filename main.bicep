@@ -1190,6 +1190,7 @@ module logAnalyticsWorkspace './modules/logAnalytics/logAnalytics.bicep' = {
   name: 'dpl-${uniqueString(deployment().name,deployment().location)}-logAnalytics'
   params: {
     logAnalyticsWorkspaceName: logAnalyticsWorkspaceName
+    skuName: 'pergb2018'
     tags: resourceTags
   }
   dependsOn: [
